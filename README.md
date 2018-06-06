@@ -24,7 +24,7 @@ clone in the same your project directory
 
 image
 container name
-ports ex. localhost:8001 is a docker port but default is 8080
+ports ex. localhost:3000 is a docker port but default is 8080
 volumns (mapping your project)
 working dir
 
@@ -50,6 +50,6 @@ if need to bash into container
 
 test request to project
 
-```ex. localhost:8001```
+```ex. localhost:3000```
 
 
