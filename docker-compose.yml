@@ -2,7 +2,7 @@ version: '2'
 services:
   php-web:
     container_name: php-web
-    image: pongsak/centos-phpfpm-nginx:latest
+    image: pongsak/centos-phpfpm-nginx:4.0
     ports:
       - 3000:80
     restart: always
